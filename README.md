@@ -3,7 +3,7 @@
  of John Smilga aka "Coding Addict". 
  
 
-[Demo on Hostinger]()         
+[Demo on Hostinger](www.google.com)         
 
 
 
