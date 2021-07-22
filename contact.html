@@ -45,7 +45,90 @@
     <!-- end of nav -->
     <!-- main -->
     <main class="page">
-      <h1>Contact page</h1>
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want To Get In Touch?</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facere
+            vitae laborum fugiat deserunt impedit mollitia dicta voluptatem
+            molestias optio dolorum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+            laborum!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+            corrupti asperiores ab, architecto temporibus eum dignissimos
+            ducimus nostrum assumenda nulla.
+          </p>
+        </article>
+        <article>
+          <form class="form contact-form">
+            <!-- single form row -->
+            <div class="form-row">
+              <label for="name" class="form-label">your name</label>
+              <input type="text" name="name" id="name" , class="form-input" />
+            </div>
+            <!-- end of single form row -->
+            <!-- single form row -->
+            <div class="form-row">
+              <label for="email" class="form-label">your email</label>
+              <input type="text" name="email" id="email" , class="form-input" />
+            </div>
+            <!-- end of single form row -->
+            <div class="form-row">
+              <label for="message" class="form-label">Message</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-textarea"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">submit</button>
+          </form>
+        </article>
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At this Awesomesouce!</h5>
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="./single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              alt="food"
+              class="img recipe-img"
+            />
+            <h5>carne asada</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="./single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              alt="food"
+              class="img recipe-img"
+            />
+            <h5>greek ribs</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="./single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              alt="food"
+              class="img recipe-img"
+            />
+            <h5>vegetable soup</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end recipes list -->
+      </section>
     </main>
 
     <!-- end of main -->
@@ -54,7 +137,8 @@
       <p>
         &copy; <span id="date"></span>
         <span class="footer-logo">SimplyRecipes</span>
-        Built by <a href="https://matrix.fandom.com/wiki/The_Matrix">Matrix Citizen</a>
+        Built by
+        <a href="https://matrix.fandom.com/wiki/The_Matrix">Matrix Citizen</a>
       </p>
     </footer>
 
